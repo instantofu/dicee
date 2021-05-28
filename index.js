@@ -1,11 +1,11 @@
 /*
 Player1 = prompt("Player 1");
 Player2 = prompt("Player 2");
-*/
+
 
 document.querySelectorAll(".player")[0].textContent = Player1;
 document.querySelectorAll(".player")[1].textContent = Player2;
-
+*/
 
 
 var randomNumber1 = Math.floor(Math.random() * 6) +1; //1-6
