@@ -1,7 +1,7 @@
-
+/*
 Player1 = prompt("Player 1");
 Player2 = prompt("Player 2");
-
+*/
 
 document.querySelectorAll(".player")[0].textContent = Player1;
 document.querySelectorAll(".player")[1].textContent = Player2;
@@ -26,10 +26,10 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩" + Player1 + " Wins!";
+  document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!"; //"🚩 " + Player1 + " Wins!";
 }
 else if (randomNumber2 > randomNumber1) {
-  document.querySelector("h1").innerHTML = Player2 + " Wins! 🚩";
+  document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩"; //Player2 + " Wins! 🚩";
 }
 else {
   document.querySelector("h1").innerHTML = "Draw!";
